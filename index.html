@@ -83,7 +83,7 @@
   </div>
 
   <!-- BUTTON -->
-  <div class="relative z-30 mt-12" data-aos="fade-up" data-aos-delay="400">
+  <div class="relative z-30 mt-16" data-aos="fade-up" data-aos-delay="400">
     <a
       href="#about"
       class="px-12 py-5 bg-green-500 text-black font-semibold rounded-full text-xl hover:bg-green-400 transition-all shadow-lg shadow-green-500/20"
@@ -122,52 +122,42 @@
 
 <!-- SECTION 3: PEOPLE -->
 
-<section class="relative w-full py-28 bg-black overflow-hidden">
+<section class="relative w-full py-24 bg-black overflow-hidden px-6 md:px-16 lg:px-28">
 
+  <!-- Subtle Glow Behind Left Content -->
+  <div class="absolute left-0 top-0 w-[600px] h-[600px] bg-green-500/20 blur-[180px] opacity-40 pointer-events-none"></div>
 
+  <div class="relative grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
 
-  <div class="relative max-w-8xl mx-auto px-10">
+    <!-- LEFT CONTENT -->
+    <div data-aos="fade-right" class="max-w-xl">
+      <h2 class="text-5xl md:text-6xl font-extrabold text-white leading-tight mb-6">
+        Our People
+      </h2>
 
-    <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-16">
+      <p class="text-gray-300 text-lg leading-relaxed mb-8">
+        David Clegg, Founding Partner and Head of Client Relations, leverages his extensive 
+        experience and successful track record in advising high-growth businesses on strategic, 
+        operational, and reporting structures, with notable success stories in driving significant 
+        client growth.
+      </p>
 
-      <!-- Block 1 -->
-      <div class="flex-1 text-center">
-        <h3 class="text-3xl font-semibold text-green-400">25 years +</h3>
-        <p class="text-gray-300 mt-3 max-w-xs mx-auto">
-          Driving success and delivering results for more than 25 years.
-        </p>
-      </div>
+      <a href="#people" 
+        class="inline-block bg-green-500 text-black font-semibold px-10 py-4 rounded-md text-lg hover:bg-green-400 transition shadow-lg shadow-green-500/20">
+        Our People
+      </a>
+    </div>
 
-      <!-- Divider -->
-      <div class="hidden md:block">
-        <div class="w-1 h-28 bg-green-400 rounded-full opacity-70"></div>
-      </div>
-
-      <!-- Block 2 -->
-      <div class="flex-1 text-center">
-        <h3 class="text-3xl font-semibold text-green-400">20 languages +</h3>
-        <p class="text-gray-300 mt-3 max-w-xs mx-auto">
-          Our talented team use their multilingual ability to globally support our client's success.
-        </p>
-      </div>
-
-      <!-- Divider -->
-      <div class="hidden md:block">
-        <div class="w-1 h-28 bg-green-400 rounded-full opacity-70"></div>
-      </div>
-
-      <!-- Block 3 -->
-      <div class="flex-1 text-center">
-        <h3 class="text-3xl font-semibold text-green-400">£2bn property +</h3>
-        <p class="text-gray-300 mt-3 max-w-xs mx-auto">
-          We have successfully transacted £2 billion in real estate from 2023–2024.
-        </p>
-      </div>
-
+    <!-- RIGHT IMAGE -->
+    <div data-aos="fade-left" class="flex justify-center md:justify-end">
+      <img 
+        src="https://images.pexels.com/photos/4427629/pexels-photo-4427629.jpeg"
+        alt="Our People"
+        class="w-full max-w-xl rounded-lg object-cover shadow-xl shadow-green-500/10"
+      />
     </div>
 
   </div>
-
 </section>
 
 <!-- CONTACT SECTION -->
