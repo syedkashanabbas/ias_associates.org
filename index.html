@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IAS Associated</title>
+  <title>IAS Associates</title>
 
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -22,21 +22,13 @@
 
 <body class="bg-black text-white relative ">
 
-<!-- Background Glow -->
-<div class="absolute inset-0 pointer-events-none opacity-40">
-  <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
-    <radialGradient id="grad" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#00ff9d" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="black" stop-opacity="0"/>
-    </radialGradient>
-    <rect width="100%" height="100%" fill="url(#grad)"/>
-  </svg>
-</div>
+
+
 
 <!-- NAVBAR -->
 <header class="relative z-20">
   <nav class="flex justify-between items-center px-8 py-6">
-    <h1 class="text-2xl font-bold">IAS Associated</h1>
+    <h1 class="text-2xl font-bold">IAS Associates</h1>
 
     <ul class="hidden md:flex gap-10 text-lg">
       <li><a href="#" class="hover:text-green-400 transition">Home</a></li>
@@ -51,31 +43,58 @@
 </header>
 
 <!-- HERO SECTION -->
-<section class="relative text-center z-20 pt-24 pb-32 px-6">
-  <h2 class="text-5xl md:text-6xl font-bold mb-6" data-aos="fade-up">
-    Excellence in Advisory
-  </h2>
-  <p class="text-xl text-gray-300 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="200">
-    IAS Associated delivers forward-thinking strategic solutions for industries, businesses and leadership teams.
-  </p>
 
-  <div class="mt-10" data-aos="fade-up" data-aos-delay="400">
-    <a href="#about" class="px-8 py-3 bg-green-500 text-black rounded-full text-lg hover:bg-green-400 transition">
-      Discover More →
-    </a>
+<section class="relative min-h-screen flex flex-col justify-center z-20 pt-32 pb-32 px-6 md:px-16 lg:px-32">
+
+  <!-- Glow Background -->
+  <div class="absolute inset-0 pointer-events-none opacity-40">
+    <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+      <radialGradient id="grad" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#00ff9d" stop-opacity="0.7"/>
+        <stop offset="100%" stop-color="black" stop-opacity="0"/>
+      </radialGradient>
+      <rect width="100%" height="100%" fill="url(#grad)"/>
+    </svg>
   </div>
-</section>
 
-<!-- SECTION 1: ABOUT -->
-<section id="about" class="py-20 px-8 relative z-20">
-  <div class="max-w-5xl mx-auto text-center">
-    <h3 class="text-4xl font-bold mb-6" data-aos="fade-up">Who We Are</h3>
-    <p class="text-gray-300 text-lg" data-aos="fade-up" data-aos-delay="150">
-      IAS Associated is committed to delivering trusted advisory services across major sectors.
-      Our team brings deep experience, insight and a collaborative approach to every challenge.
+  <!-- TEXT CONTENT -->
+  <div class="relative z-30 max-w-5xl" data-aos="fade-up">
+    <h1 class="text-6xl md:text-7xl lg:text-8xl font-extrabold leading-tight text-white">
+      Excellence in  
+      <span class="text-green-400">Advisory</span>
+    </h1>
+  </div>
+
+  <!-- SUBHEADLINE -->
+  <div class="relative z-30 max-w-5xl mt-10" data-aos="fade-up" data-aos-delay="150">
+    <p class="text-lg md:text-2xl text-gray-300 leading-relaxed">
+      We empower organisations, leadership teams and global clients with forward-thinking,
+      evidence-driven advisory solutions designed to navigate complexity, unlock opportunity
+      and accelerate strategic outcomes.
     </p>
   </div>
+
+  <!-- SUPPORTING LINE / TAGLINE -->
+  <div class="relative z-30 max-w-3xl mt-6" data-aos="fade-up" data-aos-delay="250">
+    <p class="text-base md:text-xl text-gray-400 leading-relaxed">
+      From high-growth sectors to emerging markets, IAS Associated brings clarity, structure  
+      and strategic intelligence to every challenge we engage with.
+    </p>
+  </div>
+
+  <!-- BUTTON -->
+  <div class="relative z-30 mt-12" data-aos="fade-up" data-aos-delay="400">
+    <a
+      href="#about"
+      class="px-12 py-5 bg-green-500 text-black font-semibold rounded-full text-xl hover:bg-green-400 transition-all shadow-lg shadow-green-500/20"
+    >
+      Book a Consultation →
+    </a>
+  </div>
+
 </section>
+
+
 
 <!-- SECTION 2: SECTORS -->
 <section id="sectors" class="py-20 px-8 bg-black/70 relative z-20">
@@ -102,13 +121,53 @@
 </section>
 
 <!-- SECTION 3: PEOPLE -->
-<section id="people" class="py-20 px-8 relative z-20">
-  <div class="max-w-5xl mx-auto text-center">
-    <h3 class="text-4xl font-bold mb-6" data-aos="fade-up">Our People</h3>
-    <p class="text-gray-300 text-lg" data-aos="fade-up">
-      Our team consists of highly experienced professionals dedicated to delivering clarity, precision and impactful solutions.
-    </p>
+
+<section class="relative w-full py-28 bg-black overflow-hidden">
+
+
+
+  <div class="relative max-w-8xl mx-auto px-10">
+
+    <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-16">
+
+      <!-- Block 1 -->
+      <div class="flex-1 text-center">
+        <h3 class="text-3xl font-semibold text-green-400">25 years +</h3>
+        <p class="text-gray-300 mt-3 max-w-xs mx-auto">
+          Driving success and delivering results for more than 25 years.
+        </p>
+      </div>
+
+      <!-- Divider -->
+      <div class="hidden md:block">
+        <div class="w-1 h-28 bg-green-400 rounded-full opacity-70"></div>
+      </div>
+
+      <!-- Block 2 -->
+      <div class="flex-1 text-center">
+        <h3 class="text-3xl font-semibold text-green-400">20 languages +</h3>
+        <p class="text-gray-300 mt-3 max-w-xs mx-auto">
+          Our talented team use their multilingual ability to globally support our client's success.
+        </p>
+      </div>
+
+      <!-- Divider -->
+      <div class="hidden md:block">
+        <div class="w-1 h-28 bg-green-400 rounded-full opacity-70"></div>
+      </div>
+
+      <!-- Block 3 -->
+      <div class="flex-1 text-center">
+        <h3 class="text-3xl font-semibold text-green-400">£2bn property +</h3>
+        <p class="text-gray-300 mt-3 max-w-xs mx-auto">
+          We have successfully transacted £2 billion in real estate from 2023–2024.
+        </p>
+      </div>
+
+    </div>
+
   </div>
+
 </section>
 
 <!-- CONTACT SECTION -->
