@@ -56,10 +56,9 @@
     </svg>
   </div>
 
-  <div class="relative z-30 max-w-5xl" data-aos="fade-up">
-    <h1 class="text-6xl md:text-7xl lg:text-8xl font-extrabold leading-tight text-white">
-     Contact Us for <span class="text-green-400">Strategic</span> and 
-      <span class="text-green-400">Impact</span>
+  <div class="relative z-30 max-w-8xl" data-aos="fade-up">
+    <h1 id="hero-heading" class="text-6xl md:text-7xl lg:text-8xl font-extrabold leading-tight text-white">
+    
     </h1>
   </div>
 
@@ -191,9 +190,23 @@
     Contact Us →
   </a>
 </section>
+<script src="https://unpkg.com/typify.js@1.1.9/dist/typify.min.js"></script>
+
 <script>
   AOS.init();
+  const typingText = Typify('#hero-heading', {
+    text: [
+      'Let’s Discuss Your Financial Needs',
+      'Speak With Our Accounting Team',
+      'Clear Advice Starts With a Conversation'
+    ],
+  delay: 100,
+  loop: true,
+  cursor: true,
+  stringDelay: 1000 
+});
 </script>
+
 
 </body>
 </html>
