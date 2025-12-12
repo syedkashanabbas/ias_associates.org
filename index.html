@@ -235,7 +235,6 @@
 
 
 
-
 <section class="relative w-full bg-black py-28 px-6 md:px-16 lg:px-28 overflow-hidden">
 
   <!-- Glow Background (Bottom Center) -->
@@ -704,114 +703,166 @@
   </div>
 
 </section>
+<section class="relative py-24 px-6 md:px-16 lg:px-32 bg-black">
 
-<!-- CONTACT SECTION -->
-<section id="contact" class="py-20 px-8 bg-black/70 relative z-20 text-center">
-  <h3 class="text-4xl font-bold mb-6" data-aos="fade-up">Get in Touch</h3>
-  <p class="text-gray-300 mb-6" data-aos="fade-up" data-aos-delay="150">
-    Reach out to us for consulting, business support or strategic advisory.
-  </p>
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
 
-  <a href="#" class="px-10 py-3 text-xl bg-green-500 text-black rounded-full hover:bg-green-400 transition" data-aos="fade-up" data-aos-delay="250">
-    Contact Us →
-  </a>
-</section>
-
-
-<section class="relative w-full py-28 px-6 md:px-16 lg:px-28 bg-black overflow-hidden">
-
-  <!-- Glow Background -->
-  
-
-  <div class="relative grid grid-cols-1 md:grid-cols-2 gap-20">
-
-    <!-- LEFT TEXT -->
-    <div class="space-y-6">
-      <h2 class="text-5xl md:text-6xl font-extrabold text-white leading-tight">
-        Request a<br>meeting
+    <!-- Left Content -->
+    <div>
+      <h2 class="text-4xl md:text-5xl font-bold text-white leading-tight">
+        Frequently asked
+        <span class="inline-block bg-green-500/10 text-green-400 px-3 py-1 rounded-lg">
+          questions
+        </span>
       </h2>
 
-      <p class="text-gray-300 text-lg leading-relaxed max-w-md">
-        Please fill out and submit the form to get in touch with a member 
-        of our friendly team to find out more.
+      <p class="mt-6 text-gray-400 max-w-md">
+        Answers to common questions about our accounting, taxation,
+        and advisory services.
       </p>
+
+      <a
+        href="contact_us.html"
+        class="inline-block mt-8 px-8 py-3 border border-green-400 text-green-400 rounded-full hover:bg-green-400 hover:text-black transition"
+      >
+        Contact us
+      </a>
     </div>
 
-    <!-- RIGHT FORM -->
-    <form class="space-y-10">
+    <!-- FAQ Accordion -->
+    <div class="space-y-4">
 
-      <!-- 2 COL INPUT ROW -->
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-        <div>
-          <label class="text-gray-400 text-sm">First Name</label>
-          <input type="text" class="w-full bg-transparent border-b border-white/20 focus:border-green-400 text-white outline-none py-2">
+      <!-- Item -->
+      <div class="faq-item bg-[#0f2f2b] rounded-2xl p-6 cursor-pointer">
+        <div class="flex justify-between items-center">
+          <h3 class="text-white font-semibold">
+            How do I get started with your accounting services?
+          </h3>
+          <span class="faq-icon text-green-400 text-xl">×</span>
         </div>
-
-        <div>
-          <label class="text-gray-400 text-sm">Last Name</label>
-          <input type="text" class="w-full bg-transparent border-b border-white/20 focus:border-green-400 text-white outline-none py-2">
-        </div>
+        <p class="faq-content mt-4 text-gray-300">
+          Simply contact us to schedule a consultation. We will understand
+          your requirements and recommend a tailored accounting solution
+          aligned with your business goals.
+        </p>
       </div>
 
-      <!-- 2 COL INPUT ROW -->
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-        <div>
-          <label class="text-gray-400 text-sm">Email Address</label>
-          <input type="email" class="w-full bg-transparent border-b border-white/20 focus:border-green-400 text-white outline-none py-2">
+      <!-- Item -->
+      <div class="faq-item bg-[#0f2f2b] rounded-2xl p-6 cursor-pointer">
+        <div class="flex justify-between items-center">
+          <h3 class="text-white font-semibold">
+            Can you help with tax compliance and filings?
+          </h3>
+          <span class="faq-icon text-green-400 text-xl">+</span>
         </div>
-
-        <div>
-          <label class="text-gray-400 text-sm">Phone Number</label>
-          <input type="text" class="w-full bg-transparent border-b border-white/20 focus:border-green-400 text-white outline-none py-2">
-        </div>
+        <p class="faq-content hidden mt-4 text-gray-300">
+          Yes. We handle tax compliance, filings, planning, and advisory
+          to ensure accuracy and regulatory compliance.
+        </p>
       </div>
 
-      <!-- 2 COL INPUT ROW -->
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-        <div>
-          <label class="text-gray-400 text-sm">Job Title</label>
-          <input type="text" class="w-full bg-transparent border-b border-white/20 focus:border-green-400 text-white outline-none py-2">
+      <!-- Item -->
+      <div class="faq-item bg-[#0f2f2b] rounded-2xl p-6 cursor-pointer">
+        <div class="flex justify-between items-center">
+          <h3 class="text-white font-semibold">
+            What experience does your accounting team have?
+          </h3>
+          <span class="faq-icon text-green-400 text-xl">+</span>
         </div>
-
-        <div>
-          <label class="text-gray-400 text-sm">Company Name</label>
-          <input type="text" class="w-full bg-transparent border-b border-white/20 focus:border-green-400 text-white outline-none py-2">
-        </div>
+        <p class="faq-content hidden mt-4 text-gray-300">
+          Our team consists of experienced accounting professionals
+          with expertise across multiple industries and financial areas.
+        </p>
       </div>
 
-      <!-- MESSAGE -->
-      <div>
-        <label class="text-gray-400 text-sm">Your Message</label>
-        <textarea rows="4" class="w-full bg-transparent border-b border-white/20 focus:border-green-400 text-white outline-none py-2"></textarea>
+      <!-- Item -->
+      <div class="faq-item bg-[#0f2f2b] rounded-2xl p-6 cursor-pointer">
+        <div class="flex justify-between items-center">
+          <h3 class="text-white font-semibold">
+            How are your accounting fees structured?
+          </h3>
+          <span class="faq-icon text-green-400 text-xl">+</span>
+        </div>
+        <p class="faq-content hidden mt-4 text-gray-300">
+          Our pricing depends on service scope and business requirements.
+          We offer transparent, competitive, and scalable fee structures.
+        </p>
       </div>
 
-      <!-- POLICY NOTE -->
-      <p class="text-gray-400 text-sm leading-relaxed">
-        The information you provide will be processed in accordance with our Privacy Policy.
-        You may unsubscribe from communications at any time.
-      </p>
+      <!-- Item -->
+      <div class="faq-item bg-[#0f2f2b] rounded-2xl p-6 cursor-pointer">
+        <div class="flex justify-between items-center">
+          <h3 class="text-white font-semibold">
+            What accounting services do you offer?
+          </h3>
+          <span class="faq-icon text-green-400 text-xl">+</span>
+        </div>
+        <p class="faq-content hidden mt-4 text-gray-300">
+          We offer bookkeeping, financial reporting, tax services,
+          payroll, compliance, and strategic financial advisory.
+        </p>
+      </div>
 
-      <!-- CHECKBOX -->
-      <label class="flex items-center gap-3 text-gray-300 text-sm">
-        <input type="checkbox" class="h-4 w-4 rounded border-white/30 bg-transparent">
-        I am happy to receive information from IAS Associated.
-      </label>
-
-      <!-- BUTTON -->
-      <button 
-        class="mt-6 px-10 py-4 bg-green-500 text-black font-semibold text-lg rounded-md hover:bg-green-400 transition shadow-lg shadow-green-500/20">
-        Submit →
-      </button>
-
-    </form>
-
+    </div>
   </div>
-<!-- Glow Background (BOTTOM CENTER) -->
-<div class="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 pointer-events-none">
-  <div class="w-[900px] h-[900px] bg-green-500/20 blur-[200px] opacity-50 rounded-full"></div>
-</div>
 
 </section>
+
+
+<!-- CONTACT SECTION -->
+<section
+  id="contact"
+  class="relative py-28 px-6 md:px-16 bg-black overflow-hidden text-center"
+>
+
+  <!-- Subtle Glow -->
+  <div class="absolute inset-0 pointer-events-none opacity-30">
+    <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+      <radialGradient id="contactGlow" cx="50%" cy="50%" r="55%">
+        <stop offset="0%" stop-color="#00ff9d" stop-opacity="0.5"/>
+        <stop offset="100%" stop-color="black" stop-opacity="0"/>
+      </radialGradient>
+      <rect width="100%" height="100%" fill="url(#contactGlow)"/>
+    </svg>
+  </div>
+
+  <!-- Content -->
+  <div class="relative z-20 max-w-3xl mx-auto">
+
+    <h3
+      class="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight"
+      data-aos="fade-up"
+    >
+      Let’s Talk About Your  
+      <span class="text-green-400">Financial Needs</span>
+    </h3>
+
+    <p
+      class="mt-6 text-base md:text-lg text-gray-400 leading-relaxed"
+      data-aos="fade-up"
+      data-aos-delay="150"
+    >
+      Whether you need accounting support, tax compliance, or strategic
+      financial advice, our team is here to provide clear and reliable guidance.
+    </p>
+
+    <a
+      href="contact_us.html"
+      class="inline-block mt-10 px-10 py-4 bg-green-500 text-black
+             font-semibold rounded-full text-base md:text-lg
+             hover:bg-green-400 transition-all shadow-lg shadow-green-500/20"
+      data-aos="fade-up"
+      data-aos-delay="250"
+    >
+      Book a Consultation →
+    </a>
+
+  </div>
+</section>
+
+
+
+
 <script src="https://unpkg.com/typify.js@1.1.9/dist/typify.min.js"></script>
 
 <script>
@@ -829,6 +880,6 @@
   stringDelay: 1000 
 });
 </script>
-
+<script src="./assets/js/faqs.js"></script>
 </body>
 </html>
