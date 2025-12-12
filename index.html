@@ -17,6 +17,19 @@
 
   <style>
     body { font-family: 'Manrope', sans-serif; }
+    @keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 25s linear infinite;
+}
+
   </style>
 </head>
 
@@ -185,6 +198,37 @@
     >
       Book a Consultation →
     </a>
+  </div>
+
+</section>
+<section class="relative py-16 bg-black overflow-hidden">
+
+  <!-- Label -->
+  <div class="absolute left-6 md:left-16 top-1/2 -translate-y-1/2 z-10">
+    <p class="text-gray-400 text-sm md:text-base whitespace-nowrap">
+      Trusted by
+    </p>
+  </div>
+
+  <!-- Marquee Wrapper -->
+  <div class="relative ml-32 md:ml-48 overflow-hidden">
+    <div class="flex w-max animate-marquee gap-20">
+
+      <!-- Repeated logos (set 1) -->
+      <img src="https://cdn.prod.website-files.com/64183a818a4da828b83b4a85/64183a818a4da805ef3b4ada_loremIpsum-logo.svg" class="h-6 opacity-80" />
+      <img src="https://cdn.prod.website-files.com/64183a818a4da828b83b4a85/64183a818a4da805ef3b4ada_loremIpsum-logo.svg" class="h-6 opacity-80" />
+      <img src="https://cdn.prod.website-files.com/64183a818a4da828b83b4a85/64183a818a4da805ef3b4ada_loremIpsum-logo.svg" class="h-6 opacity-80" />
+      <img src="https://cdn.prod.website-files.com/64183a818a4da828b83b4a85/64183a818a4da805ef3b4ada_loremIpsum-logo.svg" class="h-6 opacity-80" />
+      <img src="https://cdn.prod.website-files.com/64183a818a4da828b83b4a85/64183a818a4da805ef3b4ada_loremIpsum-logo.svg" class="h-6 opacity-80" />
+
+      <!-- Repeated logos (set 2 – IMPORTANT for no gaps) -->
+      <img src="https://cdn.prod.website-files.com/64183a818a4da828b83b4a85/64183a818a4da805ef3b4ada_loremIpsum-logo.svg" class="h-6 opacity-80" />
+      <img src="https://cdn.prod.website-files.com/64183a818a4da828b83b4a85/64183a818a4da805ef3b4ada_loremIpsum-logo.svg" class="h-6 opacity-80" />
+      <img src="https://cdn.prod.website-files.com/64183a818a4da828b83b4a85/64183a818a4da805ef3b4ada_loremIpsum-logo.svg" class="h-6 opacity-80" />
+      <img src="https://cdn.prod.website-files.com/64183a818a4da828b83b4a85/64183a818a4da805ef3b4ada_loremIpsum-logo.svg" class="h-6 opacity-80" />
+      <img src="https://cdn.prod.website-files.com/64183a818a4da828b83b4a85/64183a818a4da805ef3b4ada_loremIpsum-logo.svg" class="h-6 opacity-80" />
+
+    </div>
   </div>
 
 </section>
